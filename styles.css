@@ -1,0 +1,122 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+
+body {
+  background: rgb(255,200,0);
+  color: rgba(0, 0,0);
+  font-family: 'Reggae One', cursive;
+  font-style: normal;
+  font-size: 17px;
+  text-shadow: 1px 1px 1px black;
+
+
+
+}
+
+header{
+  color: rgb(255, 0, 0);
+  border: 10px solid rgb(0, 0, 0);
+  border-style:  double;
+  border-radius: 10px;
+  position: sticky;
+  width: auto;
+  background: black;
+  top: 0px;
+}
+header:hover {
+  background: aquamarine;
+  background: #ff092e;
+  color: #030703;
+  transition: all 3s;
+}
+
+
+#principio {
+  background: rgb(255,200,100);
+
+  border-top: 18px solid rgb(255, 0, 0);
+  border-bottom:18px solid rgb(255, 0, 0);
+  margin: auto;
+  padding: 20px;
+  box-shadow: 1px 1px 20px black;
+  border-radius: 10px;
+  width: auto;
+
+
+}
+article:hover{
+  box-shadow: 1px 1px 20px black;
+  transition: box-shadow 1s, background 2s;
+  border-radius: 10px;
+  background: cornsilk;
+}
+
+#SiteTitle {
+
+}
+
+#PARTE1 {
+  background: rgb(100,200,100);
+  text-align: center;
+  font-size: 20px;
+  box-shadow: 1px 1px 20px black;
+}
+
+#NIR {
+  border: 8px solid rgb(128,0,128);
+  border-style: dot-dash;
+  padding: 10px;
+  border-radius: 10px;
+
+}
+
+article {
+  display: inline-block;
+  max-width: 33%;
+}
+
+.links:hover {
+ color: orangered;
+}
+
+.Entradas {
+  width: 95%;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+#NOMBREPAGINA {
+  text-align: center;
+}
+
+.Entradas:focus {
+  background: #ff968a;
+
+}
+
+#finalimage{
+  border-radius: 10px;
+}
+
+#tabla {
+color: blueviolet;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#MUCHOTEXTO {
+  background: rgb(255,200,100);
+
+  border-top: 18px solid rgb(255, 0, 0);
+  border-bottom:18px solid rgb(255, 0, 0);
+  margin: auto;
+  padding: 20px;
+  box-shadow: 1px 1px 20px black;
+  border-radius: 10px;
+  width: auto;
+  max-height: 400px;
+  overflow: scroll;
+  overflow-x: hidden;
+
+}
